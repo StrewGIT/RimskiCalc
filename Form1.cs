@@ -33,5 +33,10 @@ namespace RimskiCalcStefanAndrejevic
         {
             TxtCalc.Text = TxtCalc.Text.Substring(0,Math.Max(0,TxtCalc.TextLength-1));
         }
+
+        private void BtnDivision_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

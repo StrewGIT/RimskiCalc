@@ -47,15 +47,15 @@
             // 
             // TxtCalc
             // 
-            this.TxtCalc.Font = new System.Drawing.Font("Adobe Heiti Std R", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCalc.Location = new System.Drawing.Point(17, 45);
             this.TxtCalc.Name = "TxtCalc";
-            this.TxtCalc.Size = new System.Drawing.Size(300, 87);
+            this.TxtCalc.Size = new System.Drawing.Size(300, 53);
             this.TxtCalc.TabIndex = 0;
             // 
             // BtnM
             // 
-            this.BtnM.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnM.Location = new System.Drawing.Point(17, 232);
             this.BtnM.Name = "BtnM";
             this.BtnM.Size = new System.Drawing.Size(65, 65);
@@ -65,7 +65,7 @@
             // 
             // BtnTimes
             // 
-            this.BtnTimes.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTimes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTimes.Location = new System.Drawing.Point(251, 232);
             this.BtnTimes.Name = "BtnTimes";
             this.BtnTimes.Size = new System.Drawing.Size(65, 65);
@@ -75,7 +75,7 @@
             // 
             // BtnMinus
             // 
-            this.BtnMinus.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMinus.Location = new System.Drawing.Point(251, 303);
             this.BtnMinus.Name = "BtnMinus";
             this.BtnMinus.Size = new System.Drawing.Size(65, 65);
@@ -85,7 +85,7 @@
             // 
             // BtnPlus
             // 
-            this.BtnPlus.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPlus.Location = new System.Drawing.Point(251, 374);
             this.BtnPlus.Name = "BtnPlus";
             this.BtnPlus.Size = new System.Drawing.Size(65, 65);
@@ -95,7 +95,7 @@
             // 
             // BtnEqual
             // 
-            this.BtnEqual.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.BtnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.BtnEqual.Location = new System.Drawing.Point(95, 374);
             this.BtnEqual.Name = "BtnEqual";
             this.BtnEqual.Size = new System.Drawing.Size(143, 65);
@@ -105,7 +105,7 @@
             // 
             // BtnClear
             // 
-            this.BtnClear.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.BtnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.BtnClear.Location = new System.Drawing.Point(17, 161);
             this.BtnClear.Name = "BtnClear";
             this.BtnClear.Size = new System.Drawing.Size(143, 65);
@@ -116,17 +116,18 @@
             // 
             // BtnDivision
             // 
-            this.BtnDivision.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.BtnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.BtnDivision.Location = new System.Drawing.Point(251, 161);
             this.BtnDivision.Name = "BtnDivision";
             this.BtnDivision.Size = new System.Drawing.Size(65, 65);
             this.BtnDivision.TabIndex = 1;
             this.BtnDivision.Text = "/";
             this.BtnDivision.UseVisualStyleBackColor = true;
+            this.BtnDivision.Click += new System.EventHandler(this.BtnDivision_Click);
             // 
             // BtnBackspace
             // 
-            this.BtnBackspace.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBackspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBackspace.Location = new System.Drawing.Point(173, 161);
             this.BtnBackspace.Name = "BtnBackspace";
             this.BtnBackspace.Size = new System.Drawing.Size(65, 65);
@@ -137,7 +138,7 @@
             // 
             // BtnL
             // 
-            this.BtnL.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnL.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnL.Location = new System.Drawing.Point(95, 232);
             this.BtnL.Name = "BtnL";
             this.BtnL.Size = new System.Drawing.Size(65, 65);
@@ -147,7 +148,7 @@
             // 
             // BtnC
             // 
-            this.BtnC.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnC.Location = new System.Drawing.Point(173, 232);
             this.BtnC.Name = "BtnC";
             this.BtnC.Size = new System.Drawing.Size(65, 65);
@@ -157,7 +158,7 @@
             // 
             // BtnV
             // 
-            this.BtnV.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnV.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnV.Location = new System.Drawing.Point(173, 303);
             this.BtnV.Name = "BtnV";
             this.BtnV.Size = new System.Drawing.Size(65, 65);
@@ -167,7 +168,7 @@
             // 
             // BtnX
             // 
-            this.BtnX.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnX.Location = new System.Drawing.Point(95, 303);
             this.BtnX.Name = "BtnX";
             this.BtnX.Size = new System.Drawing.Size(65, 65);
@@ -177,7 +178,7 @@
             // 
             // BtnD
             // 
-            this.BtnD.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnD.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnD.Location = new System.Drawing.Point(17, 303);
             this.BtnD.Name = "BtnD";
             this.BtnD.Size = new System.Drawing.Size(65, 65);
@@ -187,7 +188,7 @@
             // 
             // BtnI
             // 
-            this.BtnI.Font = new System.Drawing.Font("Adobe Heiti Std R", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnI.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnI.Location = new System.Drawing.Point(17, 374);
             this.BtnI.Name = "BtnI";
             this.BtnI.Size = new System.Drawing.Size(65, 65);
