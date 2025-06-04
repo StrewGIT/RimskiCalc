@@ -62,6 +62,7 @@
             this.BtnM.TabIndex = 1;
             this.BtnM.Text = "M";
             this.BtnM.UseVisualStyleBackColor = true;
+            this.BtnM.Click += new System.EventHandler(this.BtnM_Click);
             // 
             // BtnTimes
             // 
@@ -72,6 +73,7 @@
             this.BtnTimes.TabIndex = 1;
             this.BtnTimes.Text = "x";
             this.BtnTimes.UseVisualStyleBackColor = true;
+            this.BtnTimes.Click += new System.EventHandler(this.BtnTimes_Click);
             // 
             // BtnMinus
             // 
@@ -82,6 +84,7 @@
             this.BtnMinus.TabIndex = 1;
             this.BtnMinus.Text = "-";
             this.BtnMinus.UseVisualStyleBackColor = true;
+            this.BtnMinus.Click += new System.EventHandler(this.BtnMinus_Click);
             // 
             // BtnPlus
             // 
@@ -92,6 +95,7 @@
             this.BtnPlus.TabIndex = 1;
             this.BtnPlus.Text = "+";
             this.BtnPlus.UseVisualStyleBackColor = true;
+            this.BtnPlus.Click += new System.EventHandler(this.BtnPlus_Click);
             // 
             // BtnEqual
             // 
@@ -102,6 +106,7 @@
             this.BtnEqual.TabIndex = 1;
             this.BtnEqual.Text = "=";
             this.BtnEqual.UseVisualStyleBackColor = true;
+            this.BtnEqual.Click += new System.EventHandler(this.BtnEqual_Click);
             // 
             // BtnClear
             // 
@@ -139,12 +144,13 @@
             // BtnL
             // 
             this.BtnL.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnL.Location = new System.Drawing.Point(95, 232);
+            this.BtnL.Location = new System.Drawing.Point(17, 303);
             this.BtnL.Name = "BtnL";
             this.BtnL.Size = new System.Drawing.Size(65, 65);
             this.BtnL.TabIndex = 1;
             this.BtnL.Text = "L";
             this.BtnL.UseVisualStyleBackColor = true;
+            this.BtnL.Click += new System.EventHandler(this.BtnL_Click);
             // 
             // BtnC
             // 
@@ -155,6 +161,7 @@
             this.BtnC.TabIndex = 1;
             this.BtnC.Text = "C";
             this.BtnC.UseVisualStyleBackColor = true;
+            this.BtnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
             // BtnV
             // 
@@ -165,6 +172,7 @@
             this.BtnV.TabIndex = 1;
             this.BtnV.Text = "V";
             this.BtnV.UseVisualStyleBackColor = true;
+            this.BtnV.Click += new System.EventHandler(this.BtnV_Click);
             // 
             // BtnX
             // 
@@ -175,16 +183,18 @@
             this.BtnX.TabIndex = 1;
             this.BtnX.Text = "X";
             this.BtnX.UseVisualStyleBackColor = true;
+            this.BtnX.Click += new System.EventHandler(this.BtnX_Click);
             // 
             // BtnD
             // 
             this.BtnD.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnD.Location = new System.Drawing.Point(17, 303);
+            this.BtnD.Location = new System.Drawing.Point(95, 232);
             this.BtnD.Name = "BtnD";
             this.BtnD.Size = new System.Drawing.Size(65, 65);
             this.BtnD.TabIndex = 1;
             this.BtnD.Text = "D";
             this.BtnD.UseVisualStyleBackColor = true;
+            this.BtnD.Click += new System.EventHandler(this.BtnD_Click);
             // 
             // BtnI
             // 
@@ -195,6 +205,7 @@
             this.BtnI.TabIndex = 1;
             this.BtnI.Text = "I";
             this.BtnI.UseVisualStyleBackColor = true;
+            this.BtnI.Click += new System.EventHandler(this.BtnI_Click);
             // 
             // Form1
             // 
