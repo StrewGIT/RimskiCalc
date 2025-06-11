@@ -47,6 +47,8 @@ namespace RimskiCalcStefanAndrejevic
             RimskiBroj C = new RimskiBroj(A.arapski - B.arapski);
             if (C.arapski > 3999) throw new Exception("Dobijeni broj je veci od 3999");
             if (C.arapski < 0) throw new Exception("Negativni brojevi nisu definisani rimskim brojevima");
+            if (C.arapski == 0) throw new Exception("Nula nije definisana rimskim brojevima");
+
             return C;
         }
         public static RimskiBroj operator *(RimskiBroj A, RimskiBroj B)
@@ -62,6 +64,7 @@ namespace RimskiCalcStefanAndrejevic
                 RimskiBroj C = new RimskiBroj(A.arapski / B.arapski);
                 //MessageBox.Show("Velicina C"+C.arapski.ToString());
                 if (C.arapski > 3999) throw new Exception("Dobijeni broj je veci od 3999");
+                if (C.arapski == 0) throw new Exception("Nije definisano deljenje manjeg broja sa vecim");
                 return C;
             }
             catch (DivideByZeroException ex) { throw new DivideByZeroException("Deljenje nulom je nedefinisano"); }

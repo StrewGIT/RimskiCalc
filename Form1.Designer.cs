@@ -121,13 +121,15 @@
             // 
             // BtnDivision
             // 
+            this.BtnDivision.BackColor = System.Drawing.SystemColors.Control;
+            this.BtnDivision.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.BtnDivision.Location = new System.Drawing.Point(251, 161);
             this.BtnDivision.Name = "BtnDivision";
             this.BtnDivision.Size = new System.Drawing.Size(65, 65);
             this.BtnDivision.TabIndex = 1;
             this.BtnDivision.Text = "/";
-            this.BtnDivision.UseVisualStyleBackColor = true;
+            this.BtnDivision.UseVisualStyleBackColor = false;
             this.BtnDivision.Click += new System.EventHandler(this.BtnDivision_Click);
             // 
             // BtnBackspace
